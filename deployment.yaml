@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: end-to-end-ci-cd-pipeline-using-github-actions
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: end-to-end-ci-cd-pipeline-using-github-actions
