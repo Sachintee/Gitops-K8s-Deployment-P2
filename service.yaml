@@ -3,10 +3,9 @@ kind: Service
 metadata:
   name: devops-demo-backend
 spec:
-  type: NodePort
+  type: ClusterIP
   selector:
     app: devops-demo-backend
   ports:
     - port: 80
       targetPort: 5000
-      nodePort: 31458
