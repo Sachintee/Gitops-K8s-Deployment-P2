@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: devops-demo-backend
-        image: sachinteenwal/end-to-end-ci-cd-pipeline-using-github-actions:latest
+        image: sachinteenwal/devops-demo-backend:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
