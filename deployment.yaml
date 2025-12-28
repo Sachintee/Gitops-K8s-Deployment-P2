@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: devops-demo-backend
-        image: sachinteenwal/devops-demo-backend:latest
+        image: sachinteenwal/devops-demo-backend:32
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
