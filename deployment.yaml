@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: app
-        image: DOCKER_USERNAME/end-to-end-ci-cd-pipeline-using-github-actions:latest
+        image: sachinteenwal/end-to-end-ci-cd-pipeline-using-github-actions:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
